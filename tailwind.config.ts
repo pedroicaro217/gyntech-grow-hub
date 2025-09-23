@@ -19,6 +19,42 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        
+        /* GYNTECH Corporate Colors */
+        corporate: {
+          primary: "hsl(var(--corporate-primary))",
+          secondary: "hsl(var(--corporate-secondary))",
+        },
+        
+        /* ERP System Colors (Green) */
+        erp: {
+          primary: "hsl(var(--erp-primary))",
+          secondary: "hsl(var(--erp-secondary))",
+          accent: "hsl(var(--erp-accent))",
+          foreground: "hsl(var(--erp-foreground))",
+        },
+        
+        /* IT Services Colors (Blue) */
+        it: {
+          primary: "hsl(var(--it-primary))",
+          secondary: "hsl(var(--it-secondary))",
+          accent: "hsl(var(--it-accent))",
+          foreground: "hsl(var(--it-foreground))",
+        },
+        
+        /* Enhanced Neutral Scale */
+        neutral: {
+          50: "hsl(var(--neutral-50))",
+          100: "hsl(var(--neutral-100))",
+          200: "hsl(var(--neutral-200))",
+          300: "hsl(var(--neutral-300))",
+          400: "hsl(var(--neutral-400))",
+          500: "hsl(var(--neutral-500))",
+          600: "hsl(var(--neutral-600))",
+          700: "hsl(var(--neutral-700))",
+          800: "hsl(var(--neutral-800))",
+          900: "hsl(var(--neutral-900))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
