@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { CustomButton } from "@/components/ui/custom-button";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 const Home = () => {
   return (
@@ -143,6 +144,21 @@ const Home = () => {
               </CustomButton>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-neutral-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold text-corporate-primary mb-4">
+              O que Nossos Clientes Dizem
+            </h2>
+            <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
+              Veja como a GYNTECH tem transformado negócios em todo Goiás
+            </p>
+          </div>
+          <TestimonialsCarousel />
         </div>
       </section>
 
