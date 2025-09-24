@@ -41,11 +41,11 @@ const Header = () => {
           <div className="hidden md:block">
             <CustomButton variant="corporate" size="default" asChild>
               <a 
-                href="https://wa.me/5562999999999?text=Olá! Gostaria de conhecer as soluções da GYNTECH."
+                href="https://os.gyntechit.com.br/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Fale Conosco
+                Área do Cliente
               </a>
             </CustomButton>
           </div>
@@ -92,15 +92,15 @@ const Header = () => {
               >
                 Contato
               </Link>
-              <CustomButton variant="corporate" size="default" className="self-start" asChild>
-                <a 
-                  href="https://wa.me/5562999999999?text=Olá! Gostaria de conhecer as soluções da GYNTECH."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Fale Conosco
-                </a>
-              </CustomButton>
+               <CustomButton variant="corporate" size="default" className="self-start" asChild>
+                 <a 
+                   href="https://os.gyntechit.com.br/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                 >
+                   Área do Cliente
+                 </a>
+               </CustomButton>
             </nav>
           </div>
         )}
