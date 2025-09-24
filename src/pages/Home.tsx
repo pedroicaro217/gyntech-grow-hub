@@ -239,7 +239,7 @@ const Home = () => {
               </a>
             </CustomButton>
             
-            <CustomButton variant="corporate-outline" size="xl" asChild>
+            <CustomButton variant="it-outline" size="xl" asChild>
               <Link to="/contato">
                 Enviar Mensagem
               </Link>
