@@ -239,7 +239,11 @@ const Services = () => {
               <p className="text-2xl text-web-accent font-semibold mb-4">
                 Criamos a identidade digital única que sua marca merece. Chega de sites genéricos que não geram resultados.
               </p>
-              <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
+            </div>
+
+            {/* Destaque do problema/solução */}
+            <div className="bg-white rounded-xl p-8 shadow-lg border-l-4 border-web-primary mb-12">
+              <p className="text-lg text-neutral-700 leading-relaxed">
                 Você sente que seu site atual é apenas mais um na multidão? Muitas empresas em Goiânia ficam presas em modelos prontos que não refletem sua verdadeira identidade e, pior, não convertem visitantes em clientes. Nós desenvolvemos projetos web pensados do zero, alinhados à sua estratégia e focados em proporcionar uma experiência única para o seu público.
               </p>
             </div>
@@ -324,54 +328,6 @@ const Services = () => {
                   </h4>
                   <p className="text-neutral-600 text-sm">
                     Conectamos seu site às ferramentas que seu negócio realmente precisa (CRM, ERP, WhatsApp, etc.).
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Process */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg mb-12">
-              <h3 className="text-2xl font-bold text-web-primary mb-6 text-center">
-                Como Funciona (Nosso Processo Colaborativo)
-              </h3>
-              <p className="text-neutral-600 mb-8 text-center max-w-3xl mx-auto">
-                Nosso processo garante que o resultado final seja exatamente o que você precisa:
-              </p>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-web-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold text-web-primary">1</span>
-                  </div>
-                  <h4 className="text-lg font-bold text-web-primary mb-2">
-                    Imersão e Diagnóstico
-                  </h4>
-                  <p className="text-neutral-600 text-sm">
-                    Mergulhamos no seu negócio para entender seus desafios e objetivos.
-                  </p>
-                </div>
-
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-web-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold text-web-primary">2</span>
-                  </div>
-                  <h4 className="text-lg font-bold text-web-primary mb-2">
-                    Design e Prototipação
-                  </h4>
-                  <p className="text-neutral-600 text-sm">
-                    Desenhamos a solução e apresentamos para sua validação em cada etapa.
-                  </p>
-                </div>
-
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-web-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold text-web-primary">3</span>
-                  </div>
-                  <h4 className="text-lg font-bold text-web-primary mb-2">
-                    Desenvolvimento e Lançamento
-                  </h4>
-                  <p className="text-neutral-600 text-sm">
-                    Codificamos o projeto com tecnologia de ponta e colocamos no ar com todo o suporte necessário.
                   </p>
                 </div>
               </div>
