@@ -239,11 +239,7 @@ const Services = () => {
               <p className="text-2xl text-web-accent font-semibold mb-4">
                 Criamos a identidade digital única que sua marca merece. Chega de sites genéricos que não geram resultados.
               </p>
-            </div>
-
-            {/* Destaque do problema/solução */}
-            <div className="bg-white rounded-xl p-8 shadow-lg border-l-4 border-web-primary mb-12">
-              <p className="text-lg text-neutral-700 leading-relaxed">
+              <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                 Você sente que seu site atual é apenas mais um na multidão? Muitas empresas em Goiânia ficam presas em modelos prontos que não refletem sua verdadeira identidade e, pior, não convertem visitantes em clientes. Nós desenvolvemos projetos web pensados do zero, alinhados à sua estratégia e focados em proporcionar uma experiência única para o seu público.
               </p>
             </div>
