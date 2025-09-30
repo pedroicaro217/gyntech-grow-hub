@@ -69,6 +69,11 @@ const Home = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-erp-primary">GYNTECH Gestor</h3>
                   <p className="text-neutral-600">Sistema ERP Completo</p>
+                  <div className="mt-2 inline-block bg-erp-primary/10 border border-erp-primary rounded-lg px-3 py-1">
+                    <p className="text-sm font-semibold text-erp-primary">
+                      + Emissão e Configuração de Certificado Digital
+                    </p>
+                  </div>
                 </div>
               </div>
               

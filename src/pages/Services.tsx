@@ -97,7 +97,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="text-center">
+            <div className="text-center mb-16">
               <CustomButton variant="erp" size="xl" asChild>
                 <a 
                   href="https://wa.me/5562999999999?text=Quero solicitar uma demonstração do GYNTECH Gestor!"
@@ -109,6 +109,50 @@ const Services = () => {
                   <ArrowRight size={20} />
                 </a>
               </CustomButton>
+            </div>
+
+            {/* Certificado Digital Section */}
+            <div className="bg-white rounded-2xl p-10 shadow-xl border-l-4 border-erp-primary">
+              <h3 className="text-3xl font-bold text-erp-primary mb-6 text-center">
+                Solução Completa: Emissão e Configuração de Certificado Digital
+              </h3>
+              
+              <p className="text-lg text-neutral-700 mb-6 leading-relaxed">
+                Para simplificar sua rotina e garantir a emissão de notas fiscais, oferecemos a <strong>solução completa de ponta a ponta</strong> para o seu Certificado Digital A1. <strong>Nós cuidamos de tudo para você</strong>, com um ponto único de contato.
+              </p>
+
+              <div className="mb-6">
+                <h4 className="text-xl font-bold text-erp-primary mb-4">Nossa solução inclui:</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-erp-secondary rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Shield className="text-erp-primary" size={24} />
+                    </div>
+                    <div>
+                      <h5 className="font-bold text-erp-primary mb-2">Emissão do Certificado</h5>
+                      <p className="text-neutral-600">
+                        Conduzimos todo o processo de emissão junto à certificadora, sem que você precise se preocupar com a burocracia.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-erp-secondary rounded-lg flex items-center justify-center flex-shrink-0">
+                      <Monitor className="text-erp-primary" size={24} />
+                    </div>
+                    <div>
+                      <h5 className="font-bold text-erp-primary mb-2">Instalação e Configuração</h5>
+                      <p className="text-neutral-600">
+                        Realizamos a instalação no seu computador e a configuração otimizada diretamente no Gyntech Gestor, com todos os testes para garantir o funcionamento.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-lg text-neutral-700 leading-relaxed">
+                O resultado é agilidade e a segurança de resolver tudo em um só lugar. Fale com nossa equipe e solicite seu certificado com a tranquilidade que sua empresa merece.
+              </p>
             </div>
           </div>
         </div>
