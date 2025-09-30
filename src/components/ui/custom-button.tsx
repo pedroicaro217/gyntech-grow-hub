@@ -22,6 +22,8 @@ const buttonVariants = cva(
         "erp-outline": "border-2 border-erp-primary text-erp-primary bg-transparent hover:bg-erp-primary hover:text-erp-foreground",
         it: "bg-it-primary text-it-foreground hover:bg-it-accent shadow-it hover:shadow-lg transform hover:-translate-y-0.5",
         "it-outline": "border-2 border-it-primary text-it-primary bg-transparent hover:bg-it-primary hover:text-it-foreground",
+        web: "bg-web-primary text-web-foreground hover:bg-web-accent shadow-web hover:shadow-lg transform hover:-translate-y-0.5",
+        "web-outline": "border-2 border-web-primary text-web-primary bg-transparent hover:bg-web-primary hover:text-web-foreground",
         corporate: "bg-corporate-primary text-white hover:bg-corporate-primary/90 shadow-corporate hover:shadow-lg transform hover:-translate-y-0.5",
         "corporate-outline": "border-2 border-corporate-primary text-corporate-primary bg-transparent hover:bg-corporate-primary hover:text-white",
       },

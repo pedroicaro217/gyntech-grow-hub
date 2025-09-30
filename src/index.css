@@ -26,6 +26,12 @@
     --it-accent: 213 94% 55%;
     --it-foreground: 0 0% 100%;
     
+    /* Web Projects colors - Golden Orange theme */
+    --web-primary: 45 100% 51%;
+    --web-secondary: 45 100% 96%;
+    --web-accent: 45 100% 42%;
+    --web-foreground: 0 0% 100%;
+    
     /* Neutral grays */
     --neutral-50: 0 0% 98%;
     --neutral-100: 0 0% 96%;
@@ -42,11 +48,13 @@
     --gradient-corporate: linear-gradient(135deg, hsl(var(--corporate-primary)), hsl(var(--neutral-800)));
     --gradient-erp: linear-gradient(135deg, hsl(var(--erp-primary)), hsl(var(--erp-accent)));
     --gradient-it: linear-gradient(135deg, hsl(var(--it-primary)), hsl(var(--it-accent)));
+    --gradient-web: linear-gradient(135deg, hsl(var(--web-primary)), hsl(var(--web-accent)));
     
     /* Shadows */
     --shadow-corporate: 0 10px 30px -10px hsl(var(--corporate-primary) / 0.2);
     --shadow-erp: 0 10px 30px -10px hsl(var(--erp-primary) / 0.2);
     --shadow-it: 0 10px 30px -10px hsl(var(--it-primary) / 0.2);
+    --shadow-web: 0 10px 30px -10px hsl(var(--web-primary) / 0.2);
     
     /* Standard shadcn tokens updated */
     --card: 0 0% 100%;
@@ -139,6 +147,10 @@
     background: var(--gradient-it);
   }
   
+  .gradient-web {
+    background: var(--gradient-web);
+  }
+  
   .shadow-corporate {
     box-shadow: var(--shadow-corporate);
   }
@@ -149,6 +161,10 @@
   
   .shadow-it {
     box-shadow: var(--shadow-it);
+  }
+  
+  .shadow-web {
+    box-shadow: var(--shadow-web);
   }
   
   .transition-smooth {

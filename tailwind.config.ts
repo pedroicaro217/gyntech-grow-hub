@@ -42,6 +42,14 @@ export default {
           foreground: "hsl(var(--it-foreground))",
         },
         
+        /* Web Projects Colors (Golden Orange) */
+        web: {
+          primary: "hsl(var(--web-primary))",
+          secondary: "hsl(var(--web-secondary))",
+          accent: "hsl(var(--web-accent))",
+          foreground: "hsl(var(--web-foreground))",
+        },
+        
         /* Enhanced Neutral Scale */
         neutral: {
           50: "hsl(var(--neutral-50))",

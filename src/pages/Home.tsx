@@ -59,7 +59,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* ERP System */}
             <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-erp-primary hover:shadow-erp transition-smooth">
               <div className="flex items-center mb-6">
@@ -140,6 +140,48 @@ const Home = () => {
                   rel="noopener noreferrer"
                 >
                   Solicitar Orçamento
+                </a>
+              </CustomButton>
+            </div>
+
+            {/* Web Projects */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-web-primary hover:shadow-web transition-smooth">
+              <div className="flex items-center mb-6">
+                <div className="w-16 h-16 bg-web-secondary rounded-xl flex items-center justify-center mr-4">
+                  <div className="w-8 h-8 bg-web-primary rounded-lg"></div>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-web-primary">Projetos Web Sob Medida</h3>
+                  <p className="text-neutral-600">Sites Personalizados</p>
+                </div>
+              </div>
+              
+              <p className="text-lg text-neutral-700 mb-6">
+                Criamos a identidade digital única que sua marca merece. Sites rápidos, 
+                seguros e focados em resultados.
+              </p>
+              
+              <div className="space-y-3 mb-8">
+                {[
+                  "Design Exclusivo e Alinhado à sua Marca",
+                  "Desenvolvimento 100% Responsivo",
+                  "Otimização para SEO (Google)",
+                  "Integrações Personalizadas"
+                ].map((feature, index) => (
+                  <div key={index} className="flex items-center space-x-3">
+                    <CheckCircle className="text-web-primary" size={20} />
+                    <span className="text-neutral-700">{feature}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <CustomButton variant="web" size="lg" className="w-full" asChild>
+                <a 
+                  href="https://wa.me/5562999999999?text=Quero um projeto web sob medida!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Agende uma Conversa
                 </a>
               </CustomButton>
             </div>
